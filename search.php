@@ -6,7 +6,7 @@ require_once('inc/header.php');
 /*** *** *** *** *** ***
 * OSSearch is also required for this page to get search info from your grid.
 * For this to work on your grid add the following line into your Robust.ini or Robust.HG.ini in the [LoginService] section.
-* SearchURL = "http://yourwebsiteaddresshere/ossearch.php?search=[QUERY]"
+* SearchURL = "http://yourwebsiteaddresshere/search.php?search=[QUERY]"
 *** *** *** *** *** ***/
 
 $search = $osw->Security->make_safe($_GET['search']);

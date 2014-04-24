@@ -23,7 +23,12 @@ if ($hide_sidebars) {
 		<p><span class="textlogo"><a href="<?php echo $site_address; ?>/tos.php">Terms of Service</a></span></p>
 		<p>Web design &copy; <a href="http://zetamex.com/" target="_blank">Zetamex</a> and Built With <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>. 
 		     Distributed under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative&nbsp;Commons</a>.</p>
-		<a href="http://opensimulator.org" target="_blank"><img class="logo" src="<?php echo $site_address; ?>/img/Os_b_150x20_b.png"></a>
+		<p>
+			Powered by<br>
+			<a href="http://" target="_blank"><img src='<?php echo $site_address; ?>/img/opensimwebbanner.png'></a><br>
+			And<br>
+			<a href="http://opensimulator.org" target="_blank"><img src="<?php echo $site_address; ?>/img/Os_b_150x20_b.png"></a>
+		</p>
 		</center>
   	</div>
   	<div class="col-md-4">
