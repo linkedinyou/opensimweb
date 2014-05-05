@@ -241,7 +241,7 @@ var $osw;
 		$gridstatus = "<span class='nowrap'><strong>Users in World:</strong> ".$online."</span><br>
 				<span class='nowrap'><strong>Regions:</strong> ".$regions."</span><br>
 				<span class='nowrap'><strong>Total Users:</strong> ".$totaluser."</span><br>
-				<span class='nowrap'><strong>Active Users (Last 30 Days):</strong> ".$latest."</span>
+				<span class='nowrap'><strong>Active Users (Last 30 Days):</strong> ".$latest."</span><br>
 				<span class='nowrap'><strong>Grid is ".$gonline." </strong></span>";
 	return $gridstatus;
 	}

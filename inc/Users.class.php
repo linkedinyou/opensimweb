@@ -193,12 +193,7 @@ var $osw;
 							}else if ($this->osw->config['Default_Female'] == "" && $this->osw->config['Default_Male'] == ""){
 								$avi = "";
 							}
-
-							if ($avi != "") {
-								// This is where we put copied cloths onto the new resident.
-							}else if (!$avi) {
-								// do nothing since $avi is empty.
-							}
+							$this->osw->Avatar->createlook($randomuuid, $avi);
 							return true;
 						}else{
 							return false;

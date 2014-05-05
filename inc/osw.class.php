@@ -40,6 +40,9 @@ class osw
 		Require_once('grid.class.php');
 		$this->grid = new grid($this);
 
+		Require_once('Avatar.class.php');
+		$this->Avatar = new Avatar($this);
+
 		$this->Users->validate_login();
 		$this->Sessions->clear_old_sessions();
 	}
